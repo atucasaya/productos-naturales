@@ -1,0 +1,141 @@
+/* CSS Document */
+*{
+    padding: 5px;
+}
+html,body{
+    max-width: 80%;
+    margin: auto;
+    background: white;
+    padding: 10px;
+    height: 100%;
+}
+
+header{
+    background-color:#924D18;
+	height: 100px;
+    color:white;
+    text-align: center;
+}
+nav{
+    background-color: #DADADA;
+}
+section{
+    background-color: #E8FEB2;
+    float: left;
+    width: 70%;
+    height: 70%;
+}
+aside{
+	
+	background-color: #E8FEB2;
+    float: left;
+    width: 70%;
+    height: 70%;
+}
+	
+	figure{
+		border: thin #c0c0c0 solid;
+		padding: 5px;
+		margin: auto;
+		max-width: 1050px;
+	text-align: center;
+			
+	}
+	figcaption{
+		background-color: #592303;
+		color: #fff;
+		font : italic smaller sans-serif;
+		padding : 3px;
+		text-align: center;
+	}
+
+
+
+img, img hover{
+	transition: all 1s ease-in-out;
+}
+
+
+.enfoque:hover{
+	filter : blur(5px)
+}
+
+	
+	
+	
+	
+
+article{
+    background-color: #FEDFB2;
+    color:white;
+}
+
+
+div{
+    background-color: #F1F5AA;
+}
+
+
+footer{
+    background-color: red;
+    clear: both;
+}
+
+
+        ol{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: none;
+            position: sticky;
+            top: 0;
+        }
+        li{
+            float: left;
+            border-right: 2px solid #CFCFCF;
+        }
+        li a{
+            display: block;
+            color: #B8D6FB;
+            padding: 14px 50.6px;
+				
+            text-decoration: none;
+            text-align: center;
+        }
+
+        li a:link{
+            background-color: darkred;
+            color: #fff;
+        }
+        li a:visited{
+            background-color: #DF880B;
+            color: #fff;
+        }
+        li a:hover{
+            background-color: #DF880B;
+            color: #fff;
+        }
+        li a:active{
+            background-color:#DF880B ;
+            color: #fff;
+        }
+
+
+        li.activa a{
+            background-color: #DF880B;
+            color: #fff;
+        }
+submenu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    
+    float: left;
+    z-index: 2;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    
+    border-color: #d4d4d4;
+    padding: 0 10px 10px;
